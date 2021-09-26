@@ -1,0 +1,7 @@
+FOM (NSTEPS=1344.000000, peak/mean-squared) =   427.8188
+FOM (NSTEPS=42966.000000, peak/mean-squared) =  1679.4715
+FOM (NSTEPS=42798.000000, peak/mean-squared) =   457.4743
+FOM (NSTEPS=40920.000000, peak/mean-squared) =   559.1648
+FOM (NSTEPS=38570.000000, peak/mean-squared) =    19.4368
+FOM (NSTEPS=771.000000, peak/mean-squared) =   275.6179
+FOM (NSTEPS=2147483647.//////, peak/mean-squared) = 2147483647.////

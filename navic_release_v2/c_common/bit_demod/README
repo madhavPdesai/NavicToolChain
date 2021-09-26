@@ -1,0 +1,22 @@
+Written by MPD.
+
+A bit demodulator which accepts Qp, code phase and
+other tracking loop values and demodulates the
+bits encoded in the Qp values and indexes them
+with a milli-second epoch count and a code-phase.
+
+A simple FSM is used to demodulate the bits.  On initialization,
+the FSM waits for 100 samples, then looks for four sign
+transitions separated by multiples of 20ms, and then  starts
+generating the bits using the qp-sum values in 20ms bit
+intervals.  It also reports quality related numbers.  See
+the header and source files for more details.
+
+include/
+	header
+
+src/
+	source
+
+util/
+	a test bench.

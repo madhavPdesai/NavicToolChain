@@ -1,0 +1,8 @@
+[?1034hscons: Reading SConscript files ...
+scons: done reading SConscript files.
+scons: Building targets ...
+gcc -o src/cp_driver.o -c -g -DCP_STANDALONE_SIM -I/home/madhav/AHIR/gitHub/ahir/release/include -Iinclude -Iinclude src/cp_driver.c
+In file included from src/cp_driver.c:7:
+include/cp_internals.h:113: error: expected specifier-qualifier-list before 'BitBuffer'
+scons: *** [src/cp_driver.o] Error 1
+scons: building terminated because of errors.

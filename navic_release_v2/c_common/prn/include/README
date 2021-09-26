@@ -1,0 +1,10 @@
+irnss_prn.h
+	file provided by Gaurav.  Provenance unknown.
+
+irnss_prn_gen.h
+	file used by prn generator code.
+
+irnss_prn_headers.h
+	prn sequences produced by generator
+	as per ISRO IRNSS document (satellites 1-14
+	for L5, 15-28 for S)

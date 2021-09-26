@@ -1,0 +1,794 @@
+Info: started initializing coprocessor.
+Info: toggle test passed
+initializeCoprocessor: command vptr = 0x40064000, pptr = 0x40040000
+Info: Coprocessor track samples per ms = 16368
+Info: Coprocessor acquire samples per ms = 4092
+Info: virtual address of command_response_array is 0x40064000
+Info: virtual address of command_response_array[0].args[0]) is 0x40064000
+Info: entered writePrnIntoAcquireRfBuffers (timestep=  0.00000000)
+Info: finished initializing coprocessor.
+Info: enable coprocesor.
+Info: activating satellite 0.
+Info: checking command buffer status [0]
+Info: scheduling acquire [0]
+Info: generate strobe [0].
+SWEEP COMPLETED (cr=0x1000401) [0]
+Acquire: waiting for 1ms [0] [0]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [1] [0]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [2] [0]
+Acquire: toggled block-id
+Acquire command [0] finished
+Acquire: finished advancing MS to 3
+Acquire response [0]: reg-value=0
+         out_arg[0] = 0x8fb8090
+         out_arg[1] = 0x0
+         out_arg[2] = 0x0
+         out_arg[3] = 0x1c37ed
+         out_arg[4] = 0x1210
+         out_arg[5] = 0x87654321
+         out_arg[6] = 0x0
+         out_arg[7] = 0x0
+FOM (NSTEPS=1344.000000, peak/mean-squared) =   427.8188
+Info: acquire command completed [0]
+Info: checking command buffer status [1]
+Info: scheduling acquire [1]
+Info: generate strobe [1].
+SWEEP COMPLETED (cr=0x1010401) [1]
+Acquire: waiting for 1ms [0] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [1] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [2] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [3] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [4] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [5] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [6] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [7] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [8] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [9] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [10] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [11] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [12] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [13] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [14] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [15] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [16] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [17] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [18] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [19] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [20] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [21] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [22] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [23] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [24] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [25] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [26] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [27] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [28] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [29] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [30] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [31] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [32] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [33] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [34] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [35] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [36] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [37] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [38] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [39] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [40] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [41] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [42] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [43] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [44] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [45] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [46] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [47] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [48] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [49] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [50] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [51] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [52] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [53] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [54] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [55] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [56] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [57] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [58] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [59] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [60] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [61] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [62] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [63] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [64] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [65] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [66] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [67] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [68] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [69] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [70] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [71] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [72] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [73] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [74] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [75] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [76] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [77] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [78] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [79] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [80] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [81] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [82] [1]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [83] [1]
+Acquire: toggled block-id
+Acquire command [1] finished
+Acquire: finished advancing MS to 84
+Acquire response [1]: reg-value=0
+         out_arg[0] = 0x8fb8090
+         out_arg[1] = 0x0
+         out_arg[2] = 0x0
+         out_arg[3] = 0xe5cc46
+         out_arg[4] = 0x20103e9
+         out_arg[5] = 0x87654321
+         out_arg[6] = 0x0
+         out_arg[7] = 0x0
+FOM (NSTEPS=42966.000000, peak/mean-squared) =  1679.4715
+Info: acquire command completed [1]
+Info: checking command buffer status [2]
+Info: scheduling acquire [2]
+Info: generate strobe [2].
+SWEEP COMPLETED (cr=0x1010401) [2]
+Acquire: waiting for 1ms [0] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [1] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [2] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [3] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [4] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [5] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [6] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [7] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [8] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [9] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [10] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [11] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [12] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [13] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [14] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [15] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [16] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [17] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [18] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [19] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [20] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [21] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [22] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [23] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [24] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [25] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [26] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [27] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [28] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [29] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [30] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [31] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [32] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [33] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [34] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [35] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [36] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [37] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [38] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [39] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [40] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [41] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [42] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [43] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [44] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [45] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [46] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [47] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [48] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [49] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [50] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [51] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [52] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [53] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [54] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [55] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [56] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [57] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [58] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [59] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [60] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [61] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [62] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [63] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [64] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [65] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [66] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [67] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [68] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [69] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [70] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [71] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [72] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [73] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [74] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [75] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [76] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [77] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [78] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [79] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [80] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [81] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [82] [2]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [83] [2]
+Acquire: toggled block-id
+Acquire command [2] finished
+Acquire: finished advancing MS to 84
+Acquire response [2]: reg-value=0
+         out_arg[0] = 0x2490900
+         out_arg[1] = 0x0
+         out_arg[2] = 0x7f5
+         out_arg[3] = 0xd5cbac
+         out_arg[4] = 0x20103f1
+         out_arg[5] = 0x87654321
+         out_arg[6] = 0x0
+         out_arg[7] = 0x0
+FOM (NSTEPS=42798.000000, peak/mean-squared) =   457.4743
+Info: acquire command completed [2]
+Info: checking command buffer status [3]
+Info: scheduling acquire [3]
+Info: generate strobe [3].
+SWEEP COMPLETED (cr=0x1010401) [3]
+Acquire: waiting for 1ms [0] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [1] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [2] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [3] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [4] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [5] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [6] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [7] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [8] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [9] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [10] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [11] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [12] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [13] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [14] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [15] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [16] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [17] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [18] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [19] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [20] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [21] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [22] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [23] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [24] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [25] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [26] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [27] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [28] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [29] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [30] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [31] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [32] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [33] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [34] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [35] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [36] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [37] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [38] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [39] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [40] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [41] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [42] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [43] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [44] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [45] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [46] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [47] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [48] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [49] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [50] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [51] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [52] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [53] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [54] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [55] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [56] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [57] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [58] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [59] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [60] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [61] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [62] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [63] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [64] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [65] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [66] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [67] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [68] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [69] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [70] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [71] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [72] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [73] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [74] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [75] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [76] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [77] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [78] [3]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [79] [3]
+Acquire: toggled block-id
+Acquire command [3] finished
+Acquire: finished advancing MS to 80
+Acquire response [3]: reg-value=0
+         out_arg[0] = 0x2c67844
+         out_arg[1] = 0x0
+         out_arg[2] = 0x0
+         out_arg[3] = 0xcb1896
+         out_arg[4] = 0x20901e8
+         out_arg[5] = 0x87654321
+         out_arg[6] = 0x0
+         out_arg[7] = 0x0
+FOM (NSTEPS=40920.000000, peak/mean-squared) =   559.1648
+Info: acquire command completed [3]
+Info: checking command buffer status [4]
+Info: scheduling acquire [4]
+Info: generate strobe [4].
+SWEEP COMPLETED (cr=0x1010401) [4]
+Acquire: waiting for 1ms [0] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [1] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [2] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [3] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [4] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [5] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [6] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [7] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [8] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [9] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [10] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [11] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [12] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [13] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [14] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [15] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [16] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [17] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [18] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [19] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [20] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [21] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [22] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [23] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [24] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [25] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [26] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [27] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [28] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [29] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [30] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [31] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [32] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [33] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [34] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [35] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [36] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [37] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [38] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [39] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [40] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [41] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [42] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [43] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [44] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [45] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [46] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [47] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [48] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [49] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [50] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [51] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [52] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [53] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [54] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [55] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [56] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [57] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [58] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [59] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [60] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [61] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [62] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [63] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [64] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [65] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [66] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [67] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [68] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [69] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [70] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [71] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [72] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [73] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [74] [4]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [75] [4]
+Acquire: toggled block-id
+Acquire command [4] finished
+Acquire: finished advancing MS to 76
+Acquire response [4]: reg-value=0
+         out_arg[0] = 0x182eba
+         out_arg[1] = 0x1
+         out_arg[2] = 0x7ed
+         out_arg[3] = 0xbb733e
+         out_arg[4] = 0x21107de
+         out_arg[5] = 0x87654321
+         out_arg[6] = 0x0
+         out_arg[7] = 0x0
+FOM (NSTEPS=38570.000000, peak/mean-squared) =    19.4368
+Info: acquire command completed [4]
+Info: checking command buffer status [5]
+Info: scheduling acquire [5]
+Info: generate strobe [5].
+SWEEP COMPLETED (cr=0x1010401) [5]
+Acquire: waiting for 1ms [0] [5]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [1] [5]
+Acquire: toggled block-id
+Acquire: waiting for 1ms [2] [5]
+Acquire: toggled block-id
+Acquire command [5] finished
+Acquire: finished advancing MS to 3
+Acquire response [5]: reg-value=0
+         out_arg[0] = 0x8fb8090
+         out_arg[1] = 0x0
+         out_arg[2] = 0x0
+         out_arg[3] = 0x192084
+         out_arg[4] = 0x2010303
+         out_arg[5] = 0x87654321
+         out_arg[6] = 0x0
+         out_arg[7] = 0x0
+FOM (NSTEPS=771.000000, peak/mean-squared) =   275.6179
+Info: acquire command completed [5]
+Info: checking command buffer status [6]
+Info: scheduling acquire [6]
+Info: generate strobe [6].
+SWEEP COMPLETED (cr=0x1000401) [6]
+Acquire: waiting for 1ms [0] [6]
+Acquire: toggled block-id
+Acquire command [6] finished
+Acquire: finished advancing MS to 1
+Acquire response [6]: reg-value=0
+         out_arg[0] = 0x8fb8090
+         out_arg[1] = 0x0
+         out_arg[2] = 0x1
+         out_arg[3] = 0x18fa45
+         out_arg[4] = 0x1e09fe
+         out_arg[5] = 0x87654321
+         out_arg[6] = 0x0
+         out_arg[7] = 0x0
+FOM (NSTEPS=2147483647.//////, peak/mean-squared) = 2147483647.////
+Info: acquire command completed [6]
+Info: all done
+ø

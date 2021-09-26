@@ -1,0 +1,34 @@
+import os
+import sys
+env = Environment(ENV = {'PATH' : os.environ['PATH']})
+
+AHIR_RELEASE=os.environ['AHIR_RELEASE']
+AHIR_INCLUDE=AHIR_RELEASE+"/include"
+AJIT_PROJECT_HOME=os.environ['AJIT_PROJECT_HOME']
+
+AHIR_LIBPATH=AHIR_RELEASE + "/lib"
+NAVIC_HOME=os.environ['NAVIC_HOME']
+
+env.Append(CPPPATH = AHIR_INCLUDE + ":./include:")
+env.Append(CPPPATH = NAVIC_HOME + "/c_common/include:")
+env.Append(CPPPATH = NAVIC_HOME + "/c_common/prn/include:")
+env.Append(CPPPATH = AJIT_PROJECT_HOME + "/tools/ajit_access_routines/include:")
+env.Append(CPPPATH = AJIT_PROJECT_HOME + "/tools/minimal_printf_timer/include:")
+
+env.Library('lib/libNavicDriver', Glob('src/*.c'), CCFLAGS='-g -DAJIT')
+
+
+VariantDir('objTest','src',duplicate=0)
+TESTSRCS=' ./util/nco8bit_test.c ./objTest/nco8bit.c '
+TESTLIBS= ' m '
+env.Program('bin/nco8bit_test', Split(TESTSRCS), LIBS=Split(TESTLIBS), CCFLAGS='-g ')
+
+VariantDir('obj3Test','src',duplicate=0)
+TEST3SRCS=' ./util/nco3bit_test.c ./obj3Test/nco3.c ./obj3Test/nco.c'
+env.Program('bin/nco3bit_test', Split(TEST3SRCS), LIBS=Split(TESTLIBS), CCFLAGS='-g ')
+
+COSSRCS=' ./util/cos4bit_8_samples.c '
+env.Program('bin/cos4bit_8_samples_gen', Split(COSSRCS), LIBS=Split(TESTLIBS), CCFLAGS='-g ')
+
+DPHASESRCS=' ./util/dphase_calculate.c '
+env.Program('bin/dphase_calculate', Split(DPHASESRCS), LIBS=Split(TESTLIBS), CCFLAGS='-g ')

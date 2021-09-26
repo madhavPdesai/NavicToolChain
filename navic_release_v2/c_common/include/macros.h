@@ -1,0 +1,27 @@
+#ifndef __macros_h___
+#define __macros_h___
+#ifdef AJIT
+	#include <core_portme.h>
+	#define PRINTF ee_printf
+#else
+	#define PRINTF printf
+#endif
+
+
+#define GPS_L1_CARRIER_FREQ_IN_MHZ		1575.42
+#define IRNSS_L5_CARRIER_FREQ_IN_MHZ		1176.45
+#define IRNSS_S_CARRIER_FREQ_IN_MHZ		2492.028
+
+#define CHIPS_PER_MS				1023
+#define RF_OVERSAMPLING_FACTOR 			16
+#define RF_BLOCK_QUEUE_SIZE 			8
+#define INTERNAL_SAMPLING_FREQUENCY             16*CHIPS_PER_MS*1000
+#define INTERNAL_INTERMEDIATE_FREQUENCY		(4*CHIPS_PER_MS*1000)
+
+#define RESAMPLED_BLOCK_SIZE			(RF_OVERSAMPLING_FACTOR*1023)
+#define RESAMPLED_BLOCK_SIZE_IN_DWORDS		(RF_OVERSAMPLING_FACTOR*1024/64)
+
+#define NUMBER_OF_SATELLITES			64
+#define MAX_ACQUIRE_MILLISECOND_COUNT		8
+
+#endif

@@ -1,0 +1,28 @@
+Contents of navic_release.
+
+exports.sh
+	Script to set up environment variables.
+	Must be sourced from the released directory
+	before proceeding.
+	
+	source exports.sh
+
+c_common/
+	coprocessor and rf resampler setup and control
+	routines that can be used by applications.
+
+bin-utils/
+	C compiler, assembler, and bin utils.
+
+applications/
+	Applications which illustrate the use of
+	the SOC, as well as for verification.
+
+lib/
+	shared libraries used by the NAVIC SOC C model.
+
+tools/
+	Scripts and executables.
+
+docs/
+	Documents.

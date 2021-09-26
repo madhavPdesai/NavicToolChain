@@ -1,0 +1,21 @@
+1. New version of bitfile to be transferred  (DONE).
+	- with mock adcs
+		(uses mock adcs to model 6 channels crude tuning and characterization)
+
+	- with l1 adc connection only
+		(uses real adcs, fine tuning and characterization)
+		
+
+2. New Ajit compilation tool environment to be installed at SAMEER.  (??)
+
+
+3. New Navic release with
+	- vanilla app
+	- bitdemod app
+
+4. Rebuild app with SAMEER P0
+	- using IITB bitdemod??
+
+5. Characterization!!
+
+6. Design a prototype board.

@@ -1,0 +1,88 @@
+\section{The tracking loop used in the IITB NAVIC SOC}
+
+The process of tracking in the IITB NAVIC SOC consists of
+the following flow of activity.
+
+\begin{verbatim}
+for each satellite S do {
+  // F=carrier frequency
+  // P=carrier phase
+  // C=code delay
+  // OK=1 if acquired, else 0
+  F,P,C,OK := Acquire(S)
+  CP := C           // initial prompt phase
+  CE := C - CHIP/2  // initial early phase
+  CL := C + CHIP/2  // initial late phase
+  if(OK) {
+    do {
+       // in-phase and quadrature correlations
+       // for prompt, early and late code delays,
+       // using the carrier frequency F and phase P.
+       Ip,Qp,Ie,Qe,Il,Ql := 
+           ComputeCorrelations(S,F,P,CP,CE,CL);
+       // Freq, phase, prompt, early, late code phases.
+       F,P,CP,CE,CL :=
+           RunTrackingLoop(Ip,Qp,Ie,Qe,Il,Ql,F,P,CP,CE,CL);
+    } while S track not lost;
+  }
+} while TrackNotLost(S);
+\end{verbatim}
+
+The inner loop is executed every $1\ ms$. Let $T=0.001$ secods.
+The tracking loop is responsible for computing
+the updated values of 
+\begin{itemize}
+\item Carrier frequency F.
+\item Carrier phase P.
+\item Data code phase CP (hence CE, CL).
+\end{itemize}
+given the results of correlation computation based
+on the previous values of F,P,CP.
+
+We use $f$ to denote the carrier frequency,
+$\phi$ to denote the carrier phase, and $\Delta_E, \Delta_P, \Delta_L$
+to denote the data code phases CE, CP, CL shown above.  The tracking
+loop actually consists of three loops, a frequency locked loop (FLL) to
+update $f$, a phase locked loop (PLL) to update $\phi$, and a delay-locked
+loop (DLL) to update $\Delta_P$.  Let the current index of the inner
+loop execution be $k$ (we start with $k=1$)..
+
+The FLL and PLL use an error value computed using the following
+discriminator.
+\begin{equation}
+\theta(k) \ = \ \tan^{-1}(Ip(k)/Qp(k))
+\end{equation}
+The FLL is described by the following equation:
+\begin{equation}
+f(k+1)  =  ((0.055 \times 2 * \Pi * T) \times \theta(k))\ + \ f(k)
+\end{equation}
+The PLL is described by the following equations:
+\begin{eqnarray*}
+\phi_{R}(k+1) & = & \phi_R(k) \ + \ (f(k) \times 2 \times \Pi \times T) \\
+\phi_{accum}(k+1)  & = & \phi_{accum}(k) \ + \ (0.75 \times \theta(k)) \\
+\phi(k+1) & = & \phi_{accum}(k+1) + \phi_R(k+1)
+\end{eqnarray*}
+Together the FLL and DLL determine the values of $f$ and $\phi$ to
+be used in the next correlation set.
+
+The DLL uses the following discriminator:
+\begin{eqnarray*}
+E(k) & = & I_e(k)^2 + Q_e(k)^2\\
+L(k) & = & I_l(k)^2 + Q_l(k)^2\\
+\psi(k) & =  & (E(k) - L(k))/(E(k) + L(k)) 
+\end{eqnarray*}
+Based on the discriminator $\psi(k)$, the 
+next value of the prompt code phase is calculated
+using the following.
+\begin{eqnarray*}
+h(k+1) & = & (0.9 \times \psi(k)) + (0.1 \times h(k)) \\
+P(k+1) & = & P(k) + ((h(k) > 0) ? -1 : 1)
+\end{eqnarray*}
+
+\vspace{1cm}
+\begin{itemize}
+\item It is assumed that $h(1) =\phi_R(1) = \phi_{accum}(1) = 0$.
+\item Note that the tracking loop is entirely described by
+software.
+\end{itemize}
+
